@@ -1,0 +1,16 @@
+nav{
+    background: #00b8a9;
+    padding: 20px;
+}
+.Columna{
+    background: #f6416c;
+    color: #f8f3d4;
+    padding: 20px;
+    width: 25%;
+    margin: 20px;
+}
+.Padre{
+    display: flex;
+
+
+}

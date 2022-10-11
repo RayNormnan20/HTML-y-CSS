@@ -1,0 +1,43 @@
+.Nav-enlace{
+    display: inline-block;
+    background: salmon;
+    color: #fff;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+.Nav-enlace:hover{
+    background: rosybrown;  /* Cambia de color a los bloques cuando pasamos por encima*/
+
+}
+nav{
+    background: rebeccapurple;
+    padding: 10px ;
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+}
+.nav-button{
+    background: salmon;
+    color: #fff;
+    padding: 10px 0px;
+    border: 2px solid #fff;
+    display: none;
+}
+@media (max-width: 600px) {
+    nav{
+        background: black;
+        flex-direction: column;
+    }
+    .Nav-enlace{
+        margin: 10px 0px;
+    }
+    .nav-button{
+        display: inline-block;
+    }
+    .desaparece{
+    display: none;
+    }
+} 
+
+ 
