@@ -1,0 +1,23 @@
+body {
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+#word {
+  font-family: Megrim, cursive;
+  font-size: 7vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+  margin: 10;
+  color: #fc0;
+  text-shadow: 0 0 10px #0f0, 0 0 10px #0f0, 0 0 10px #0f0, 0 0 40px #0f0, 0 0 50px #0f0, 0 0 60px #0f0, 0 0 70px #0f0;
+  -webkit-text-stroke: 0.15vh rgb(0, 255, 115);
+  visibility: hidden;
+}
